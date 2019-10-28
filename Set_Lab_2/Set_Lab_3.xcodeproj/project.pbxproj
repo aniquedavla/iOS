@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740D4F642367583D0071BE3E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D4F622367583D0071BE3E /* CardView.swift */; };
+		740D4F652367583D0071BE3E /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740D4F632367583D0071BE3E /* CardView.xib */; };
 		7411EB2123284BCC003D1AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411EB2023284BCC003D1AF6 /* AppDelegate.swift */; };
 		7411EB2323284BCC003D1AF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7411EB2223284BCC003D1AF6 /* ViewController.swift */; };
 		7411EB2623284BCC003D1AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7411EB2423284BCC003D1AF6 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740D4F622367583D0071BE3E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		740D4F632367583D0071BE3E /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		7411EB1D23284BCC003D1AF6 /* Set_Lab_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set_Lab_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7411EB2023284BCC003D1AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7411EB2223284BCC003D1AF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 		7411EB1F23284BCC003D1AF6 /* Set_Lab_2 */ = {
 			isa = PBXGroup;
 			children = (
+				74158F232367514600D89ACF /* CardView */,
 				7411EB3223284BDF003D1AF6 /* Supporting Files */,
 				7411EB2223284BCC003D1AF6 /* ViewController.swift */,
 				7411EB2423284BCC003D1AF6 /* Main.storyboard */,
@@ -79,6 +84,15 @@
 				7411EB2923284BCE003D1AF6 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74158F232367514600D89ACF /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				740D4F622367583D0071BE3E /* CardView.swift */,
+				740D4F632367583D0071BE3E /* CardView.xib */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,7 @@
 			files = (
 				7411EB2B23284BCE003D1AF6 /* LaunchScreen.storyboard in Resources */,
 				7411EB2823284BCE003D1AF6 /* Assets.xcassets in Resources */,
+				740D4F652367583D0071BE3E /* CardView.xib in Resources */,
 				7411EB2623284BCC003D1AF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +171,7 @@
 				74F62F17234A579500978372 /* SetCardView.swift in Sources */,
 				7416A397233C247E0036A186 /* Card.swift in Sources */,
 				7416A399233C249C0036A186 /* Set_Game.swift in Sources */,
+				740D4F642367583D0071BE3E /* CardView.swift in Sources */,
 				7411EB2123284BCC003D1AF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

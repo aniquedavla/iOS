@@ -1,15 +1,19 @@
 //
-//  SetCardView.swift
+//  CardView.swift
 //  Set_Lab_3
 //
-//  Created by Anique Davla on 10/6/19.
+//  Created by Anique Davla on 10/28/19.
 //  Copyright © 2019 Anique. All rights reserved.
 //
 
 import UIKit
-@IBDesignable
 
-class SetCardView: UIView {
+class CardView: UICollectionViewCell {
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
     
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -112,6 +116,7 @@ class SetCardView: UIView {
         //rightArcPath.addClip()
         rightArcPath.stroke()
     }
+    
     //draws a triangle
     func drawDiamond(moveTo: CGPoint,leftLine: CGPoint, downLine: CGPoint, rightLine: CGPoint, upLine: CGPoint) {
         //triangle
@@ -133,3 +138,4 @@ class SetCardView: UIView {
         triangle.stroke()
     }
 }
+
