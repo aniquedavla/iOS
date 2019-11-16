@@ -1,0 +1,6 @@
+framework module Pods_BuxuryAnique {
+  umbrella header "Pods-BuxuryAnique-umbrella.h"
+
+  export *
+  module * { export * }
+}
